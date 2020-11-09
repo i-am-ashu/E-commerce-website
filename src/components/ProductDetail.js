@@ -4,12 +4,8 @@ import Alert from "@material-ui/lab/Alert";
 import { useStateValue } from "../context/StateProvider";
 import "./ProductDetail.css";
 import { Snackbar } from "@material-ui/core";
-import Grow from "@material-ui/core/Grow";
 import { AlertTitle } from "@material-ui/lab";
 
-function GrowTransition(props) {
-  return <Grow {...props} />;
-}
 
 function ProductDetail() {
   let location = useLocation();
@@ -79,7 +75,7 @@ function ProductDetail() {
           <h5>Select Quantity :</h5>
           <button
             onClick={() => {
-              if (quantity != 1) setQuantity(quantity - 1);
+              if (quantity !== 1) setQuantity(quantity - 1);
             }}
           >
             -

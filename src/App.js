@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React from 'react'
 import { Route, Switch,BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Cart from './components/Cart';
@@ -8,6 +8,8 @@ import ProductDetail from './components/ProductDetail';
 
 
 function App() {
+
+  document.title = "E-commerce";
   return (
     <Router>
        <div className="app">

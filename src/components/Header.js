@@ -17,16 +17,9 @@ function Header() {
       type: "SEARCH",
       search: value,
     });
-    if (history.location.pathname != "/") history.push("/");
+    if (history.location.pathname !== "/") history.push("/");
   };
 
-  const handleSelect = (value) => {
-    console.log("hii");
-    dispatch({
-      type: "SORT_BY_PRICE",
-      sort: value,
-    });
-  };
   return (
     <div className="header">
       <div className="header__search">
@@ -34,6 +27,7 @@ function Header() {
           <img
             className="header__logo"
             src="http://pngimg.com/uploads/amazon/amazon_PNG25.png"
+            alt=""
           />
         </Link>
         <input

@@ -41,7 +41,7 @@ function Home() {
 
   const handleSelect = (value) => {
     console.log(value);
-    if (value != "") {
+    if (value !== "") {
       let sortedproducts = [...products].sort((a, b) => {
         return value === "rate"
           ? b.rating - a.rating
