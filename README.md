@@ -8,7 +8,7 @@ DYNAMIC:boom: online shopping demo website with exclusive features of `Shopping 
 **Includes Search filter and Sort by Category and price**
 
 ## :cloud: `Live Demo`
-here's [Live Demo](https://e-commerce-website-gold.vercel.app/)
+here's [Live Demo](https://e-commerce-website-jqtypok0m.vercel.app/)
 
 
 ## Used Library/Packages
