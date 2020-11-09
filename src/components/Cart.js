@@ -69,7 +69,7 @@ function Cart() {
         onClose={handleClose}
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
       >
-        <Alert onClose={handleClose} severity="warning">
+        <Alert variant="filled" onClose={handleClose} severity="warning">
           <AlertTitle>Hey,Your cart is Empty!!</AlertTitle>
           <small>There is nothing in your shopping cart</small>
         </Alert>

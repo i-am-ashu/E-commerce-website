@@ -91,7 +91,7 @@ function ProductDetail() {
           onClose={handleClose}
           anchorOrigin={{ vertical: "top", horizontal: "center" }}
         >
-          <Alert onClose={handleClose} severity="success">
+          <Alert variant="filled"  onClose={handleClose} severity="success">
             <AlertTitle>Success</AlertTitle>
             <p>Item Added to Cart successfully!</p>
           </Alert>
